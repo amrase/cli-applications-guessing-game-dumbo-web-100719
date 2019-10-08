@@ -9,9 +9,7 @@ def run_guessing_game
     elsif user_input != rand_number 
     	return "The computer guessed #{rand_number}."
     else user_input == rand_number
-      return "You guessed the correct number!
-    else
-      puts "Invalid input "
+      return "You guessed the correct number!"
     end 
     
 end 
